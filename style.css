@@ -62,8 +62,8 @@
     padding: 10px;
     padding-left: 30px;
     padding-right: 30px;
-    font-weight: bold;
-    border-radius: 15px;
+    font-weight: 500;
+    border-radius: 10px;
     width: 150px;
     border-color: #3882f6;
 }
@@ -131,7 +131,6 @@
 .midbottomitems {
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 5%;
@@ -141,19 +140,71 @@
 #quote {
     font-size: 36px;
     color: #1f2937;
-    text-align: center;
+    text-align: left;
     font-style: italic;
     font-weight: lighter;
 }
 
 #author {
-    font-weight: bold;
+    font-weight: 600;
+    text-align: right;
 }
 
 .bottom {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10px;
+}
+
+.bottomitems {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+
+.leftbot {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    font-weight: bold;
+    row-gap: 0px;
+}
+
+#top {
+    margin-bottom: 0%;
+}
+
+#under {
+    font-weight: lighter;
+    color:#e5e7eb;
+    margin-top: 0%;
+}
+
+.rightbot {
+    display: flex;
+    align-items: flex-end;
+}
+
+.rightbot button {
+    font-size: 16px;
+    color: #f9faf8;
+    background: none;
+    color: inherit;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    width: 150px;
+    border-color: #f9faf8;
+    border-style: solid;
 }
 
 .footer {
@@ -161,6 +212,6 @@
     flex-direction: row;
     justify-content: center;
     color: #e5e7eb;
-    font-size: 18px;
+    font-size: 15px;
     padding: 10px;
 }
